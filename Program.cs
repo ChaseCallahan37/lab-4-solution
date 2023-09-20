@@ -1,33 +1,19 @@
-﻿//Come up with a menu driven system that will allow a user to choose 1 of 3 options
-
-//******Main *********//
+﻿//******Main *********//
 int userChoice = GetMenuChoice(); 
 
-while(userChoice != 3){
-    Route(userChoice);
-    userChoice = GetMenuChoice();
-}
+Route(userChoice);
+
 //******End Main *********//
 
 static int GetMenuChoice(){
     DisplayMenu(); 
     string userChoice = Console.ReadLine();
-    if (IsValidChoice(userChoice)) {
-        return int.Parse(userChoice);
-    }
-    else return 0;
+    return int.Parse(userChoice);
 }
 
 static void DisplayMenu(){
     Console.Clear();
     Console.WriteLine("Enter 1 to purchase cheddar\nEnter 2 to purchase swiss\nEnter 3 to exit");
-}
-
-static bool IsValidChoice(string userChoice) {
-    if (userChoice == "1" || userChoice == "2" || userChoice == "3") {
-        return true;
-    }
-    return false;
 }
 
 static void Route(int userChoice) {
@@ -45,9 +31,8 @@ static void Route(int userChoice) {
 // Menu option 1 method
 static void AmericanCheese(){
     Console.Clear();
-    Random rnd = new Random();
-    int number = rnd.Next(3, 10);
-    for (int i=0; i < number; i++){
+    int rows = RandomNumber(3, 9);
+    for (int i=0; i < rows; i++){
         for (int j=0; j <= i; j++){
             Console.Write("o ");
         }
@@ -59,13 +44,12 @@ static void AmericanCheese(){
 static void SwissCheese(){
     Console.Clear();
     Random rnd = new Random();
-    int number = rnd.Next(3, 10);
+    int rows = RandomNumber(3, 9);
     Console.WriteLine("o"); //I'm hardcoding this for aesthetic purposes
-    for (int i=1; i < number; i++){
+    for (int i=1; i < rows; i++){
         for (int j=0; j<= i; j++){
-            Random rand = new Random();
-            int rNumber = rand.Next(100);
-            if (rNumber > 75){
+            int oddsOfHole = RandomNumber(0, 100);
+            if (oddsOfHole > 75){
                 Console.Write("  ");
             }
             else {
@@ -74,6 +58,11 @@ static void SwissCheese(){
         }
         Console.WriteLine();
     }
+}
+
+static int RandomNumber(int start, int end){
+    Random rnd = new Random();
+    return rnd.Next(start, end);
 }
 
 static void SayInvalid(){

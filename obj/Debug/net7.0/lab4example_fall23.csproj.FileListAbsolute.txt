@@ -1,0 +1,15 @@
+/home/chase/Projects/221/test/lab4example_fall23/bin/Debug/net7.0/lab4example_fall23
+/home/chase/Projects/221/test/lab4example_fall23/bin/Debug/net7.0/lab4example_fall23.deps.json
+/home/chase/Projects/221/test/lab4example_fall23/bin/Debug/net7.0/lab4example_fall23.runtimeconfig.json
+/home/chase/Projects/221/test/lab4example_fall23/bin/Debug/net7.0/lab4example_fall23.dll
+/home/chase/Projects/221/test/lab4example_fall23/bin/Debug/net7.0/lab4example_fall23.pdb
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.csproj.AssemblyReference.cache
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.GeneratedMSBuildEditorConfig.editorconfig
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.AssemblyInfoInputs.cache
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.AssemblyInfo.cs
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.csproj.CoreCompileInputs.cache
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.dll
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/refint/lab4example_fall23.dll
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.pdb
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/lab4example_fall23.genruntimeconfig.cache
+/home/chase/Projects/221/test/lab4example_fall23/obj/Debug/net7.0/ref/lab4example_fall23.dll

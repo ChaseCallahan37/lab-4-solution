@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carsonmiller/Desktop/MIS 221/221code/ta/lab4example_fall23/lab4example_fall23.csproj": {}
+    "/home/chase/Projects/221/test/lab4example_fall23/lab4example_fall23.csproj": {}
   },
   "projects": {
-    "/Users/carsonmiller/Desktop/MIS 221/221code/ta/lab4example_fall23/lab4example_fall23.csproj": {
+    "/home/chase/Projects/221/test/lab4example_fall23/lab4example_fall23.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carsonmiller/Desktop/MIS 221/221code/ta/lab4example_fall23/lab4example_fall23.csproj",
+        "projectUniqueName": "/home/chase/Projects/221/test/lab4example_fall23/lab4example_fall23.csproj",
         "projectName": "lab4example_fall23",
-        "projectPath": "/Users/carsonmiller/Desktop/MIS 221/221code/ta/lab4example_fall23/lab4example_fall23.csproj",
-        "packagesPath": "/Users/carsonmiller/.nuget/packages/",
-        "outputPath": "/Users/carsonmiller/Desktop/MIS 221/221code/ta/lab4example_fall23/obj/",
+        "projectPath": "/home/chase/Projects/221/test/lab4example_fall23/lab4example_fall23.csproj",
+        "packagesPath": "/home/chase/.nuget/packages/",
+        "outputPath": "/home/chase/Projects/221/test/lab4example_fall23/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/carsonmiller/.nuget/NuGet/NuGet.Config"
+          "/home/chase/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.111/RuntimeIdentifierGraph.json"
         }
       }
     }
